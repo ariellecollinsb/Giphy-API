@@ -24,7 +24,7 @@
     <header>
         <!-- Fixed navbar -->
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-            <a class="navbar-brand" href="#">Let's Get Giphy</a>
+            <span class="navbar-brand mb-0 h1">Let's Get Giphy</span>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
                 aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -34,7 +34,7 @@
                 <form class="form-inline mt-2 mt-md-0">
                     <input id="user-input" class="form-control mr-sm-2" type="text" placeholder="Search"
                         aria-label="Search">
-                    <button id="search-button" class="btn btn-outline-success my-2 my-sm-0"
+                    <button id="search-button" class="btn btn-dark my-2 my-sm-0"
                         type="submit">Search</button>
                 </form>
             </div>
@@ -44,17 +44,19 @@
     <!-- Begin page content -->
     <main role="main" class="flex-shrink-0">
         <div class="container">
-
+            <div id="instructions" class="text-muted"> Click a button or use the search box to find your favorite gif.</div>
             <div id="buttons"></div>
 
-            <div id="gifs-appear-here" class="card-columns"></div>
+            <div id="gifs-appear-here" class="card-columns">
+               
+            </div>
 
         </div>
     </main>
 
     <footer class="footer mt-auto py-3">
         <div class="container">
-            <span class="text-muted">Place sticky footer content here.</span>
+            <span>copyright &copy;.</span>
         </div>
     </footer>
 </body>

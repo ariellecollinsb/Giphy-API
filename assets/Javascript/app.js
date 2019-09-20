@@ -3,7 +3,7 @@ var topics = ["Happy", "Sad", "Excited", "Angry", "Surprised"];
 
 for (i = 0; i < topics.length; i++) {
 
-    $("#buttons").append(`<button class="btn btn-light">${topics[i]}</button>`);
+    $("#buttons").append(`<button class="btn btn-outline-dark">${topics[i]}</button>`);
 }
 
 $("#buttons button").on("click", function (event) {
@@ -18,7 +18,7 @@ $("#search-button").on("click", function (event) {
 
     var userBtn = $("<button>");
     userBtn.text(userInput);
-    userBtn.addClass("btn btn-light");
+    userBtn.addClass("btn btn-outline-dark");
     $("#buttons").append(userBtn);
     $(userBtn).on("click", function () {
         search($(this).text());
