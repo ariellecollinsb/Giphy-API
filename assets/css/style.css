@@ -1,36 +1,18 @@
-* {
-    box-sizing: border-box;
-}
-    
-    
-    
-body {
-    width: 960px;
-    height: auto;
-    margin: 30px;
-    /*background-color: lightblue;*/
-    background-image: url(../images/facebook-reactions.0.0.jpg);
-}
 
-#header {
-    width: 100%;
-    background-color: lightcoral;
-    text-align: center;
-} 
-
-.container{
-
-
-
-
-
-}
-
-
-#buttons {
-
-    padding: 50px;
-    margin: 20px;
-
-}
+main > .container {
+    padding: 60px 15px 0;
+  }
+  
+  .footer {
+    background-color: #f5f5f5;
+  }
+  
+  .footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  code {
+    font-size: 80%;
+  }
 
